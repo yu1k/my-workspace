@@ -23,6 +23,20 @@ $ npm install nodemailer
 
 nodemailerをインストール
 
+# 動かし方
+
+- authMailAddress, authMailAddressPass にSMTPサーバーの情報を格納する
+
+- toMailAddress に送信先のメールアドレスを格納する
+
+- Node.js と nodemailerがインストールされた環境で、
+
+```
+$ node script.js
+```
+
+を実行する。
+
 # todo
 
 ### 複数のメールアドレスを扱う際の仕組みを考える
