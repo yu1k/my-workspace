@@ -26,7 +26,7 @@ function sendMail(){
         from    : authMailAddress,
         to      : toMailAddress,
         subject : 'title',
-        text    : '<p>test</p>'
+        text    : 'test'
     };
 
     let smtp = nodemailer.createTransport(smtpSetting);
